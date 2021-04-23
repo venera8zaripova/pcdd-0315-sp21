@@ -1,0 +1,377 @@
+{
+  "colors" : [
+    {
+      "name" : "hsds-neutral-200",
+      "value" : "#f7f7f7"
+    },
+    {
+      "name" : "hsds-brand-brown",
+      "value" : "#39131a"
+    },
+    {
+      "name" : "hsds-brown-900",
+      "value" : "#1e090d"
+    },
+    {
+      "name" : "hsds-brown-800",
+      "value" : "#5b1f28"
+    },
+    {
+      "name" : "hsds-brand-pink",
+      "value" : "#d93389"
+    },
+    {
+      "name" : "hsds-brown-700",
+      "value" : "#882e3b"
+    },
+    {
+      "name" : "hsds-brown-300",
+      "value" : "#b63d50"
+    },
+    {
+      "name" : "hsds-brown-200",
+      "value" : "#d48591"
+    },
+    {
+      "name" : "hsds-brown-100",
+      "value" : "#eed1d5"
+    },
+    {
+      "name" : "hsds-pink-900",
+      "value" : "#34081f"
+    },
+    {
+      "name" : "hsds-pink-800",
+      "value" : "#67133e"
+    },
+    {
+      "name" : "hsds-pink-700",
+      "value" : "#ac1f68"
+    },
+    {
+      "name" : "hsds-pink-300",
+      "value" : "#e263a4"
+    },
+    {
+      "name" : "hsds-pink-200",
+      "value" : "#e985b8"
+    },
+    {
+      "name" : "hsds-pink-100",
+      "value" : "#f1b9d6"
+    },
+    {
+      "name" : "hsds-neutral-900",
+      "value" : "#2a2829"
+    },
+    {
+      "name" : "hsds-neutral-800",
+      "value" : "#5e575b"
+    },
+    {
+      "name" : "hsds-neutral-700",
+      "value" : "#9c9497"
+    },
+    {
+      "name" : "hsds-neutral-300",
+      "value" : "#cdc9ca"
+    },
+  ]
+}{
+  "fonts" : [
+    "arial" : {
+      "name" : "Arial",
+      "fontFamily" : "Arial"
+    },
+    "poppins" : {
+      "name" : "Poppins",
+      "fontFamily" : "Poppins"
+    },
+    "baskerville" : {
+      "name" : "Baskerville",
+      "fontFamily" : "Baskerville"
+    },
+    "mostra-nuova" : {
+      "name" : "Mostra Nuova",
+      "fontFamily" : "Mostra Nuova"
+    },
+    "poppins" : {
+      "name" : "Poppins",
+      "fontFamily" : "Poppins"
+    },
+    "mostra-nuova" : {
+      "name" : "Mostra Nuova",
+      "fontFamily" : "Mostra Nuova"
+    },
+    "mostra-nuova" : {
+      "name" : "Mostra Nuova",
+      "fontFamily" : "Mostra Nuova"
+    },
+    "mostra-nuova" : {
+      "name" : "Mostra Nuova",
+      "fontFamily" : "Mostra Nuova"
+    },
+    "mostra-nuova" : {
+      "name" : "Mostra Nuova",
+      "fontFamily" : "Mostra Nuova"
+    },
+    "mostra-nuova" : {
+      "name" : "Mostra Nuova",
+      "fontFamily" : "Mostra Nuova"
+    },
+    "mostra-nuova" : {
+      "name" : "Mostra Nuova",
+      "fontFamily" : "Mostra Nuova"
+    },
+    "poppins" : {
+      "name" : "Poppins",
+      "fontFamily" : "Poppins"
+    },
+    "poppins" : {
+      "name" : "Poppins",
+      "fontFamily" : "Poppins"
+    },
+    "poppins" : {
+      "name" : "Poppins",
+      "fontFamily" : "Poppins"
+    },
+    "mostra-nuova" : {
+      "name" : "Mostra Nuova",
+      "fontFamily" : "Mostra Nuova"
+    },
+    "mostra-nuova" : {
+      "name" : "Mostra Nuova",
+      "fontFamily" : "Mostra Nuova"
+    },
+    "poppins" : {
+      "name" : "Poppins",
+      "fontFamily" : "Poppins"
+    },
+    "poppins" : {
+      "name" : "Poppins",
+      "fontFamily" : "Poppins"
+    },
+    "poppins" : {
+      "name" : "Poppins",
+      "fontFamily" : "Poppins"
+    },
+    "poppins" : {
+      "name" : "Poppins",
+      "fontFamily" : "Poppins"
+    },
+    "poppins" : {
+      "name" : "Poppins",
+      "fontFamily" : "Poppins"
+    },
+    "poppins" : {
+      "name" : "Poppins",
+      "fontFamily" : "Poppins"
+    },
+    "poppins" : {
+      "name" : "Poppins",
+      "fontFamily" : "Poppins"
+    },
+    "mostra-nuova" : {
+      "name" : "Mostra Nuova",
+      "fontFamily" : "Mostra Nuova"
+    },
+    "poppins" : {
+      "name" : "Poppins",
+      "fontFamily" : "Poppins"
+    },
+    "poppins" : {
+      "name" : "Poppins",
+      "fontFamily" : "Poppins"
+    },
+    "poppins" : {
+      "name" : "Poppins",
+      "fontFamily" : "Poppins"
+    },
+  ],
+  "typeStyles" : [
+    "h-3" : {
+      "name" : "H3",
+      "fontFamily" : "Mostra Nuova",
+      "fontSize" : "54px",
+      "lineHeight" : "64px",
+      "letterSpacing" : "0px",
+    },
+    "h-4" : {
+      "name" : "H4",
+      "fontFamily" : "Mostra Nuova",
+      "fontSize" : "27px",
+      "lineHeight" : "39px",
+      "letterSpacing" : "0.1em",
+    },
+    "h-5" : {
+      "name" : "H5",
+      "fontFamily" : "Mostra Nuova",
+      "fontSize" : "18px",
+      "lineHeight" : "27px",
+      "letterSpacing" : "0.1em",
+    },
+    "h-6" : {
+      "name" : "H6",
+      "fontFamily" : "Mostra Nuova",
+      "fontSize" : "12px",
+      "lineHeight" : "20px",
+      "letterSpacing" : "0.1em",
+    },
+    "h-2" : {
+      "name" : "H2",
+      "fontFamily" : "Mostra Nuova",
+      "fontSize" : "75px",
+      "lineHeight" : "75px",
+      "letterSpacing" : "0px",
+    },
+    "h-1" : {
+      "name" : "H1",
+      "fontFamily" : "Mostra Nuova",
+      "fontSize" : "91px",
+      "lineHeight" : "100px",
+      "letterSpacing" : "0px",
+    },
+    "navigation-button" : {
+      "name" : "Navigation Button",
+      "fontFamily" : "Poppins",
+      "fontSize" : "27px",
+      "lineHeight" : "340px",
+      "letterSpacing" : "1.404px",
+    },
+    "primary-button" : {
+      "name" : "Primary Button",
+      "fontFamily" : "Poppins",
+      "fontSize" : "21px",
+      "lineHeight" : "38px",
+      "letterSpacing" : "1.092px",
+    },
+    "price-tag-price" : {
+      "name" : "Price Tag - Price",
+      "fontFamily" : "Poppins",
+      "fontSize" : "35px",
+      "lineHeight" : "72px",
+      "letterSpacing" : "1.82px",
+    },
+    "price-tag-duration" : {
+      "name" : "Price Tag- Duration",
+      "fontFamily" : "Poppins",
+      "fontSize" : "18px",
+      "lineHeight" : "38px",
+      "letterSpacing" : "0.936px",
+    },
+    "subheader" : {
+      "name" : "Subheader",
+      "fontFamily" : "Poppins",
+      "fontSize" : "27px",
+      "lineHeight" : "38px",
+      "letterSpacing" : "1.404px",
+    },
+    "body" : {
+      "name" : "Body",
+      "fontFamily" : "Poppins",
+      "fontSize" : "20px",
+      "lineHeight" : "38px",
+      "letterSpacing" : "1.04px",
+    },
+    "alert" : {
+      "name" : "Alert",
+      "fontFamily" : "Poppins",
+      "fontSize" : "20px",
+      "lineHeight" : "29px",
+      "letterSpacing" : "0.06px",
+    },
+  ]
+}{
+  "SpacePatterns" : [
+    {
+      "name" : "none",
+      "value" : "0px"
+    },
+    {
+      "name" : "xx-small",
+      "value" : "2px"
+    },
+    {
+      "name" : "x-small",
+      "value" : "4px"
+    },
+    {
+      "name" : "small",
+      "value" : "8px"
+    },
+    {
+      "name" : "regular",
+      "value" : "16px"
+    },
+    {
+      "name" : "large",
+      "value" : "32px"
+    },
+    {
+      "name" : "x-large",
+      "value" : "64px"
+    },
+    {
+      "name" : "xx-large",
+      "value" : "128px"
+    },
+  ]
+}{
+  "durations" : [
+    {
+      "name" : "instant",
+      "duration" : "0"
+    },
+    {
+      "name" : "x-fast",
+      "duration" : "128"
+    },
+    {
+      "name" : "fast",
+      "duration" : "160"
+    },
+    {
+      "name" : "normal",
+      "duration" : "200"
+    },
+    {
+      "name" : "slow",
+      "duration" : "250"
+    },
+    {
+      "name" : "x-slow",
+      "duration" : "313"
+    },
+  ],
+  "easeCurves" : [
+    {
+      "name" : "ease-in",
+      "curve" : {
+        x1 : 0.42,
+        y1 : 0,
+        x2 : 1,
+        y2 : 1
+      }
+    },
+    {
+      "name" : "ease-out",
+      "curve" : {
+        x1 : 0,
+        y1 : 0,
+        x2 : 0.58,
+        y2 : 1
+      }
+    },
+    {
+      "name" : "ease-in-out",
+      "curve" : {
+        x1 : 0.42,
+        y1 : 0,
+        x2 : 0.58,
+        y2 : 1
+      }
+    },
+  ],
+  "transitions" : [
+  ]
+}

@@ -1,0 +1,148 @@
+/* colors */
+$hsds-neutral-200: #f7f7f7;
+$hsds-brand-brown: #39131a;
+$hsds-brown-900: #1e090d;
+$hsds-brown-800: #5b1f28;
+$hsds-brand-pink: #d93389;
+$hsds-brown-700: #882e3b;
+$hsds-brown-300: #b63d50;
+$hsds-brown-200: #d48591;
+$hsds-brown-100: #eed1d5;
+$hsds-pink-900: #34081f;
+$hsds-pink-800: #67133e;
+$hsds-pink-700: #ac1f68;
+$hsds-pink-300: #e263a4;
+$hsds-pink-200: #e985b8;
+$hsds-pink-100: #f1b9d6;
+$hsds-neutral-900: #2a2829;
+$hsds-neutral-800: #5e575b;
+$hsds-neutral-700: #9c9497;
+$hsds-neutral-300: #cdc9ca;
+/* fonts */
+$arial: Arial;
+$poppins: Poppins;
+$baskerville: Baskerville;
+$mostra-nuova: Mostra Nuova;
+$poppins: Poppins;
+$mostra-nuova: Mostra Nuova;
+$mostra-nuova: Mostra Nuova;
+$mostra-nuova: Mostra Nuova;
+$mostra-nuova: Mostra Nuova;
+$mostra-nuova: Mostra Nuova;
+$mostra-nuova: Mostra Nuova;
+$poppins: Poppins;
+$poppins: Poppins;
+$poppins: Poppins;
+$mostra-nuova: Mostra Nuova;
+$mostra-nuova: Mostra Nuova;
+$poppins: Poppins;
+$poppins: Poppins;
+$poppins: Poppins;
+$poppins: Poppins;
+$poppins: Poppins;
+$poppins: Poppins;
+$poppins: Poppins;
+$mostra-nuova: Mostra Nuova;
+$poppins: Poppins;
+$poppins: Poppins;
+$poppins: Poppins;
+/* text styles*/
+@mixin h-3() {
+  fontFamily : $mostra-nuova;
+  fontSize : 54px;
+  lineHeight: 64px;
+  letterSpacing : 0px;
+}
+@mixin h-4() {
+  fontFamily : $mostra-nuova;
+  fontSize : 27px;
+  lineHeight: 39px;
+  letterSpacing : 0.1em;
+}
+@mixin h-5() {
+  fontFamily : $mostra-nuova;
+  fontSize : 18px;
+  lineHeight: 27px;
+  letterSpacing : 0.1em;
+}
+@mixin h-6() {
+  fontFamily : $mostra-nuova;
+  fontSize : 12px;
+  lineHeight: 20px;
+  letterSpacing : 0.1em;
+}
+@mixin h-2() {
+  fontFamily : $mostra-nuova;
+  fontSize : 75px;
+  lineHeight: 75px;
+  letterSpacing : 0px;
+}
+@mixin h-1() {
+  fontFamily : $mostra-nuova;
+  fontSize : 91px;
+  lineHeight: 100px;
+  letterSpacing : 0px;
+}
+@mixin navigation-button() {
+  fontFamily : $poppins;
+  fontSize : 27px;
+  lineHeight: 340px;
+  letterSpacing : 1.404px;
+}
+@mixin primary-button() {
+  fontFamily : $poppins;
+  fontSize : 21px;
+  lineHeight: 38px;
+  letterSpacing : 1.092px;
+}
+@mixin price-tag-price() {
+  fontFamily : $poppins;
+  fontSize : 35px;
+  lineHeight: 72px;
+  letterSpacing : 1.82px;
+}
+@mixin price-tag-duration() {
+  fontFamily : $poppins;
+  fontSize : 18px;
+  lineHeight: 38px;
+  letterSpacing : 0.936px;
+}
+@mixin subheader() {
+  fontFamily : $poppins;
+  fontSize : 27px;
+  lineHeight: 38px;
+  letterSpacing : 1.404px;
+}
+@mixin body() {
+  fontFamily : $poppins;
+  fontSize : 20px;
+  lineHeight: 38px;
+  letterSpacing : 1.04px;
+}
+@mixin alert() {
+  fontFamily : $poppins;
+  fontSize : 20px;
+  lineHeight: 29px;
+  letterSpacing : 0.06px;
+}
+/* SpacePatterns */
+$none: 0px;
+$xx-small: 2px;
+$x-small: 4px;
+$small: 8px;
+$regular: 16px;
+$large: 32px;
+$x-large: 64px;
+$xx-large: 128px;
+/* durations */
+$instant: 0;
+$x-fast: 128;
+$fast: 160;
+$normal: 200;
+$slow: 250;
+$x-slow: 313;
+/* ease curves*/
+$ease-in:  cubic-bezier(0.42, 0, 1, 1);
+$ease-out:  cubic-bezier(0, 0, 0.58, 1);
+$ease-in-out:  cubic-bezier(0.42, 0, 0.58, 1);
+/* transitions */
