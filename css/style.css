@@ -21,27 +21,38 @@
   /* colors */
 
   --hsds-brand-brown:#3a141a;
-  --hsds-brand-fuchsia: #d9338a;
-  --hsds-brand-pink: #ff7bb9;
-  --hsds-brand-rose: #a4637d;
-  --hsds-brand-eggplant: #554149;
+  --hsds-brown-900: #1E090D;
+  --hsds-brown-800: #5B1F28;
+  --hsds-brown-700: #882E3B;
+  --hsds-brown-300: #B63D50;
+  --hsds-brown-200: #D48591;
+  --hsds-brown-100: #EED1D5;
+
+  --hsds-brand-pink: #D93389;
+  --hsds-pink-900: #34081F;
+  --hsds-pink-800: #67133E;
+  --hsds-pink-700: #AC1F68;
+  --hsds-pink-300: #E263A4;
+  --hsds-pink-200: #E985B8;
+  --hsds-pink-100: #F1B9D6;
+
+  --hsds-neutral-900: #2A2829;
+  --hsds-neutral-800: #5E575B;
+  --hsds-neutral-700: #9C9497;
+  --hsds-neutral-300: #CDC9CA;
+  --hsds-neutral-200: #F7F7F7;
 
 
-  --hsds-gray900: #2a2829;
-  --hsds-gray800: #5e585b;
-  --hsds-gray300: #9c9598;
-  --hsds-gray200: #cdcacb;
-  --hsds-gray100: #ebeaea;
-  --white:#FFFFFF;
 
-      /* Color intentions */
-      --primary: var(--nmds-brand-pink);
-      --danger: var(--nmds-brand-scarlet);
-      --background: var(--nmds-gray100);
-      --textColor: var(--nmds-gray900);
-      --buttonTextColor: var(--nmds-brand-blue);
-      --lineColor: var(---nmds-gray200);
-      --cardBg: var(--white);
+  /* Color intentions */
+    --displayBackgroundColor: var(--hsds-brand-brown);
+    --canvasBackgroundColor: var(--hsds-neutral-200);
+
+    --primaryTextColor: var(--hsds-brand-brown);
+    --secondaryTextColor: var(var(--hsds-neutral-200);
+    --buttonTextColor: var(--nmds-brand-blue);
+
+    --lineColor: var(--hsds-brand-pink);
 
     /* Type */
     --bodyFont: "Poppins", sans-serif;
@@ -114,8 +125,8 @@ main {
 }
 
 .section {
-  background:#fff;
-  box-shadow: 3px 3px 2px 1px rgba(111, 111, 111, .2);
+  background: var(--hsds-brand-brown);
+  /* box-shadow: 3px 3px 2px 1px rgba(111, 111, 111, .2); */
   padding:2rem;
   margin-bottom:2rem;
 }
