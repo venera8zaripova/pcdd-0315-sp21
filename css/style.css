@@ -44,15 +44,16 @@
 
 
 
-  /* Color intentions */
-    --displayBackgroundColor: var(--hsds-brand-brown);
-    --canvasBackgroundColor: var(--hsds-neutral-200);
 
-    --primaryTextColor: var(--hsds-brand-brown);
-    --secondaryTextColor: var(var(--hsds-neutral-200);
-    --buttonTextColor: var(--nmds-brand-blue);
 
-    --lineColor: var(--hsds-brand-pink);
+      /* Color intentions */
+      --primary: var(--nmds-brand-pink);
+      --danger: var(--nmds-brand-scarlet);
+      --background: var(--nmds-gray100);
+      --textColor: var(--nmds-gray900);
+      --buttonTextColor: var(--nmds-brand-blue);
+      --lineColor: var(---nmds-gray200);
+      --cardBg: var(--white);
 
     /* Type */
     --bodyFont: "Poppins", sans-serif;
@@ -155,7 +156,7 @@ h1, h2, h3, h4, h5, h6 {
   font-family: mostra-nuova, sans-serif;
   font-weight: 700;
   font-style: normal;
-  line-height:1;
+  line-height:1.5;
 }
 
 h1 {
@@ -190,7 +191,7 @@ h6 {
 
 p, li {
   font-size: 1rem;
-  line-height: 1.5;
+  /* line-height: 1.5; */
   margin-top:var(--space-md);
   margin-bottom:var(--space-md);
   color:var(--text-color);
@@ -202,19 +203,36 @@ p, li {
 
 .section-label {
   text-transform: uppercase;
+  font-size: larger;
   font-weight:400;
   letter-spacing: 10px;
 }
 
 .section-break {
   text-transform: uppercase;
-  font-weight:700;
+  font-size: smaller;
+  font-weight:400;
   margin-top:3rem;
+  letter-spacing: 10px;
 }
+
+.properties {
+  text-transform: uppercase;
+  font-size: smaller;
+  font-weight:400;
+  margin-top:3rem;
+  letter-spacing: 10px;
+  line-height: .5;
+  display: flex;
+  flex: left;
+  display: inline-block;
+}
+
 
 .text-white {
   color:#fff;
 }
+
 
 .title {
   font-style: italic;
@@ -224,45 +242,86 @@ p, li {
 /* Color samples */
 
 
-  .color-brand-brown {
+  .hsds-brand-brown {
     background-color: var(--hsds-brand-brown);
+    border: 0.5px rgb(122, 96, 96) solid;
   }
 
-  .color-brand-fuchsia {
-    background-color: var(--hsds-brand-fuchsia);
+  .hsds-brown-900 {
+    background-color: var(--hsds-brown-900);
   }
 
-  .color-brand-pink {
+  .hsds-brown-800 {
+    background-color: var(--hsds-brown-800);
+  }
+
+  .hsds-brown-700 {
+    background-color: var(--hsds-brown-700);
+  }
+
+  .hsds-brown-300 {
+    background-color: var(--hsds-brown-300);
+  }
+
+  .hsds-brown-200 {
+    background-color: var(--hsds-brown-200);
+  }
+
+  .hsds-brown-100 {
+    background-color: var(--hsds-brown-100);
+  }
+
+  
+
+  .hsds-brand-pink {
     background-color: var(--hsds-brand-pink);
+    border: 0.5px rgb(122, 96, 96) solid;
   }
 
-  .color-brand-rose {
-    background-color: var(--hsds-brand-rose);
+  .hsds-pink-900 {
+    background-color: var(--hsds-pink-900);
   }
 
-  .color-brand-eggplant {
-    background-color: var(--hsds-brand-eggplant);
+  .hsds-pink-800 {
+    background-color: var(--hsds-pink-800);
+  }
+
+  .hsds-pink-700 {
+    background-color: var(--hsds-pink-700);
+  }
+
+  .hsds-pink-300 {
+    background-color: var(--hsds-pink-300);
+  }
+
+  .hsds-pink-200 {
+    background-color: var(--hsds-pink-200);
+  }
+
+  .hsds-pink-100 {
+    background-color: var(--hsds-pink-100);
   }
 
 
-  .color-gray900 {
-    background-color: var(--hsds-gray900);
+
+  .hsds-neutral-900 {
+    background-color: var(--hsds-neutral-900);
   }
 
-  .color-gray800 {
-    background-color: var(--hsds-gray800);
+  .hsds-neutral-800 {
+    background-color: var(--hsds-neutral-800);
   }
 
-  .color-gray300 {
-    background-color: var(--hsds-gray300);
+  .hsds-neutral-700 {
+    background-color: var(--hsds-neutral-700);
   }
 
-  .color-gray200 {
-    background-color: var(--hsds-gray200);
+  .hsds-neutral-300 {
+    background-color: var(--hsds-neutral-300);
   }
 
-  .color-gray100 {
-    background-color: var(--hsds-gray100);
+  .hsds-neutral-200 {
+    background-color: var(--hsds-neutral-200);
   }
 
 
@@ -271,7 +330,7 @@ p, li {
 .primary-hue {
   display: flex;
   padding:3rem 1rem;
-  color:#ffffff;
+  color:#F7F7F7;
   font-family: 'Poppins';
 }
 
@@ -326,6 +385,19 @@ img {
 
 
 
+/* Navigation Links */
+
+.nav-button {
+  border: 5px var(--hsds-neutral-200) solid;
+  padding: 10px;
+  width: 180px;
+}
+
+.nav-button-text {
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+  
+}
 
 
 
